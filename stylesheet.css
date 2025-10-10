@@ -83,9 +83,7 @@ a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
-img {
-  vertical-align: middle;
-}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -115,6 +113,9 @@ h2 {
   width: 160px;
   height: 160px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .two {
